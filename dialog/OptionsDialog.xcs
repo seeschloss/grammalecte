@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oor:component-schema xmlns:oor="http://openoffice.org/2001/registry" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+oor:name="Lightproof_grammalecte" oor:package="org.openoffice" xml:lang="en-US">
+<info>
+<desc>Contains the options data used for the test extensions.</desc>
+</info>
+<templates>
+
+                <group oor:name="fr">
+                        <info>
+                                <desc>The data for one leaf.</desc>
+                        </info>
+<prop oor:name="typo" oor:type="xs:string">
+                                <value></value>
+</prop>
+<prop oor:name="apos" oor:type="xs:string">
+                                <value></value>
+</prop>
+<prop oor:name="esp" oor:type="xs:string">
+                                <value></value>
+</prop>
+<prop oor:name="nbsp" oor:type="xs:string">
+                                <value></value>
+</prop>
+<prop oor:name="tu" oor:type="xs:string">
+                                <value></value>
+</prop>
+<prop oor:name="maj" oor:type="xs:string">
+                                <value></value>
+</prop>
+<prop oor:name="num" oor:type="xs:string">
+                                <value></value>
+</prop>
+<prop oor:name="virg" oor:type="xs:string">
+                                <value></value>
+</prop>
+<prop oor:name="unit" oor:type="xs:string">
+                                <value></value>
+</prop>
+<prop oor:name="nf" oor:type="xs:string">
+                                <value></value>
+</prop>
+<prop oor:name="liga" oor:type="xs:string">
+                                <value></value>
+</prop>
+<prop oor:name="mapos" oor:type="xs:string">
+                                <value></value>
+</prop>
+<prop oor:name="chim" oor:type="xs:string">
+                                <value></value>
+</prop>
+<prop oor:name="ocr" oor:type="xs:string">
+                                <value></value>
+</prop>
+<prop oor:name="conf" oor:type="xs:string">
+                                <value></value>
+</prop>
+<prop oor:name="sgpl" oor:type="xs:string">
+                                <value></value>
+</prop>
+<prop oor:name="gn" oor:type="xs:string">
+                                <value></value>
+</prop>
+<prop oor:name="infi" oor:type="xs:string">
+                                <value></value>
+</prop>
+<prop oor:name="gv" oor:type="xs:string">
+                                <value></value>
+</prop>
+<prop oor:name="imp" oor:type="xs:string">
+                                <value></value>
+</prop>
+<prop oor:name="inte" oor:type="xs:string">
+                                <value></value>
+</prop>
+<prop oor:name="bs" oor:type="xs:string">
+                                <value></value>
+</prop>
+<prop oor:name="pleo" oor:type="xs:string">
+                                <value></value>
+</prop>
+<prop oor:name="redon1" oor:type="xs:string">
+                                <value></value>
+</prop>
+<prop oor:name="redon2" oor:type="xs:string">
+                                <value></value>
+</prop>
+<prop oor:name="neg" oor:type="xs:string">
+                                <value></value>
+</prop>
+<prop oor:name="date" oor:type="xs:string">
+                                <value></value>
+</prop>
+<prop oor:name="mc" oor:type="xs:string">
+                                <value></value>
+</prop>
+<prop oor:name="idrule" oor:type="xs:string">
+                                <value></value>
+</prop>
+                </group>
+        </templates>
+        <component>
+                <group oor:name="Leaves">
+
+                        <node-ref oor:name="fr" oor:node-type="fr"/>
+                </group>
+        </component>
+        
+</oor:component-schema>
